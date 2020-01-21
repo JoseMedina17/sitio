@@ -1,0 +1,135 @@
+body{
+
+
+}
+.container-fluid{
+
+text-align: center;
+background-color: black;
+padding: 2.5rem;
+padding-bottom: auto;
+padding-top:30px;
+position: relative;
+}
+
+
+
+.imagen-logo{
+border-radius: 90%;
+width: 150px;
+height: 150px;
+border-color: black;
+border-width: 5px;
+border-style: solid;
+
+}
+
+.titulo-principal{
+font-family: 'ZCOOL QingKe HuangYou', cursive;
+font-size: 80px;
+  color: white;
+
+}
+
+.parrafo-principal{
+border-top: 2px solid #ffd369;
+border-bottom: 2px solid #ffd369;
+padding-top: 3px;
+padding-bottom: 3px;
+display:inline;
+font-size: 20px;
+text-transform: uppercase;
+color:#ffd369;
+}
+
+.contenedor{
+padding: 7.4rem;
+padding-top: 0px;
+padding-bottom: 33px;
+
+background-color: #ffd369;
+text-align: center;
+color: white;
+}
+
+.principal{
+padding-bottom: 150px;
+margin-top: 30px;
+}
+
+p{
+
+color: black;
+font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.images-footer{
+
+margin-bottom: 33px;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 20px;
+color: black;
+}
+
+.images-footer:hover{
+
+color:#fff1cf;
+
+}
+
+.navbar{
+padding-left: 300px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+
+}
+
+@media (min-width:1020px) {
+
+  .navbar{
+    margin-right: 200px;
+
+  }
+}
+
+.navbar .nav-link,
+.navbar .nav-item:hover .nav-link {
+    color: gold;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+#navbarSupportedContent{
+
+font-size: 1.3rem;
+}
+
+
+span:hover {
+  animation: fluido 2s ease-in-out infinite;
+  background: linear-gradient(-90deg, #ffd369, #ffd369, black, #ffd369 );
+  background-size: 300%;
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes fluido {
+    0% { background-position: 0 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0 50% }
+}
+
+
+.contenedor2{
+display: inline;
+
+}
+.contenedor2:hover .imagen-logo {
+  -webkit-transform:scale(1.1);transform:scale(1.1);
+
+}
+.contenedor2 {overflow:hidden;}
